@@ -89,7 +89,7 @@ function FetchCard() {
 },
 {
   id: 'male_min_weight',
-  header: () => <span className="bg-gray-100 font-semibold px-2 py-1 rounded">Male Min Weight</span>,
+  header: () => <span className="bg-gray-100 font-semibold px-2 py-1 rounded">Male Min W</span>,
   accessorKey: 'male_min_weight'
 },
     // {
