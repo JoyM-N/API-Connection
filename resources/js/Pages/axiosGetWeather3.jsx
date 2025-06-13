@@ -1,6 +1,7 @@
 import React, { useState,useEffect } from 'react';
 import axios from 'axios';
 
+
 function WeatherFetch() {
     const [weather, setWeather] = useState(
     () => {
@@ -15,7 +16,7 @@ function WeatherFetch() {
 
 useEffect(() => {
     const proxyUrl = 'https://api.allorigins.win/get?url=';
-    const city = 'Nairobi';
+    const city = 'London'; // You can change this to any city you want
     // axios.get(`${BASE_URL_3}/weather?q=${city}&appid=${API_KEY}&units=metric`)
     axios.get(`${proxyUrl}${encodeURIComponent(`${BASE_URL_3}/weather?q=${city}&appid=${API_KEY}&units=metric`)}`)
       .then(response => {
