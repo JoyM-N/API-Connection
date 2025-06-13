@@ -52,3 +52,15 @@ Route::get('/axiosFetch', function () {
 Route::get('/axiosPokeFetch', function () {
     return Inertia::render('axiosPokeFetch');
 });
+Route::get('/axiosGetPosts1', function () {
+    return Inertia::render('axiosGetPosts1');
+});
+Route::get('/axiosGetPosts1', function () {
+    return Inertia::render('axiosGetPosts1');
+});
+Route::get('/axiosGetLibrary2', function () {
+    return Inertia::render('axiosGetLibrary2');
+});
+Route::get('/axiosGetWeather3', function () {
+    return Inertia::render('axiosGetWeather3');
+});
